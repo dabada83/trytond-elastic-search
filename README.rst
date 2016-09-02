@@ -8,7 +8,8 @@ Configuration
 -------------
 
 1. Add a new configuration line to trytond.conf
-   `elastic_search_server=es.fulfil.io`
+   `[elastic_search]
+    server_uri=es.fulfil.io`
 2. Add the models you want to index into document types. `Administration >
    Elastic Search > Document Types`
 
